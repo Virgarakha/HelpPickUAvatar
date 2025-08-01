@@ -224,7 +224,7 @@ function AvatarGenerator() {
      
           <div className="mt-6 pt-4 border-t border-gray-800">
             <p className="text-xs text-gray-500 text-center">
-              Powered by DiceBear API • Updates in real-time
+              Powered by virgarakha • Updates in real-time
             </p>
           </div>
         </div>
