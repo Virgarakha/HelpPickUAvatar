@@ -24,7 +24,7 @@ function AvatarGenerator() {
       utterance.text = killuaMessages[Math.floor(Math.random() * killuaMessages.length)];
       
   
-      utterance.pitch = 1.1;
+      utterance.pitch = 1.2;
       utterance.rate = 1.1; 
       utterance.volume = 0.9;
       
