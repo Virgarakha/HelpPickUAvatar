@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function AvatarGenerator() {
-  const [name, setName] = useState("tidak ada");
+  const [name, setName] = useState("");
 
   const avatarUrl = `https://api.dicebear.com/9.x/personas/svg?seed=${encodeURIComponent(name)}&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf&radius=50`;
 
@@ -31,10 +31,7 @@ function AvatarGenerator() {
    
       const voices = speechSynthesis.getVoices();
       const preferredVoice = voices.find(voice => 
-        voice.name.includes('Google') || 
-        voice.name.includes('Microsoft') ||
-        voice.name.includes('Alex') ||
-        voice.name.includes('Samantha')
+        voice.name.includes('Google') 
       );
       
       if (preferredVoice) {
